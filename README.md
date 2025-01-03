@@ -15,7 +15,6 @@ Welcome to the **Car Price Predictor** repository! This project leverages data s
 - [Data](#data)
 - [Model Details](#model-details)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -107,7 +106,7 @@ CarPricePredictor/
   - NumPy: For numerical computations
   - Scikit-learn: For building and evaluating machine learning models
   - Matplotlib & Seaborn: For visualizations
-  - Flask/Streamlit: For building a user interface (optional)
+  - Flask: For building a user interface
 
 ---
 
@@ -124,25 +123,6 @@ The dataset includes details about second-hand cars such as:
 - Price (target variable)
 
 You can use any publicly available car price dataset or your proprietary data for training and evaluation. Ensure the dataset is properly cleaned and formatted before use.
-
----
-
-## Model Details
-
-The project explores various regression models including:
-
-- Linear Regression
-- Decision Tree Regressor
-- Random Forest Regressor
-- Gradient Boosting Models
-
-The best-performing model is selected based on evaluation metrics such as:
-
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- R-squared (R²)
-
----
 
 ## Contributing
 
@@ -164,7 +144,3 @@ Contributions are welcome! To contribute:
 5. Open a Pull Request on the main repository.
 
 ---
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
